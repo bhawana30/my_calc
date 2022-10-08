@@ -1,3 +1,6 @@
+.myclass{
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
 .container{
     text-align: center;
     margin-top: 50px;
@@ -17,6 +20,11 @@ button{
     border-radius: 20px;  
     width: 102px;
     height: 58px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+button:hover {
+  box-shadow: inset 100px 0 0 0 #192a56;
+  color: white;
 }
 .calculator{
     /* background-color: #ff99f7; */
